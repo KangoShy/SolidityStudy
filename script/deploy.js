@@ -1,7 +1,7 @@
 const hre = require("hardhat");
 
 async function main() {
-    const contract = await hre.ethers.deployContract("AdminManage");
+    const contract = await hre.ethers.deployContract("Election");
     await contract.waitForDeployment();
     console.log( `Add deployed to ${contract.target}`);
 }

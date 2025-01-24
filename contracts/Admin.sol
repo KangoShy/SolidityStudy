@@ -4,7 +4,7 @@ pragma solidity ^0.8.28;
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/structs/EnumerableSet.sol";
 
-contract AdminManage is Ownable {
+contract Election is Ownable {
 
     using EnumerableSet for EnumerableSet.AddressSet;
     // voter and candidate mapping
